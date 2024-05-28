@@ -1,11 +1,13 @@
 from turtle import *
 
-speed(0)
+speed(3)
 width(7)
 
 penup()
 goto(-850,-360)
 pendown()
+
+#we are creating the ground
 
 color("green")
 begin_fill()
@@ -22,6 +24,8 @@ end_fill()
 penup()
 goto(-250,-60)
 pendown()
+
+#building the castle
 
 left(180)
 color("grey")
@@ -60,6 +64,8 @@ end_fill()
 penup()
 goto(-230,245)
 pendown()
+
+#creating the GOA flag
 
 color("black")
 begin_fill()
@@ -117,6 +123,7 @@ penup()
 goto(150,-60)
 pendown()
 
+#drawing the king
 left(155)
 color("black")
 right(20)
@@ -200,6 +207,7 @@ penup()
 goto(-100,-60)
 pendown()
 
+#drawing the gate
 color("brown")
 begin_fill()
 left(95)
@@ -231,6 +239,8 @@ forward(125)
 penup()
 goto(-160,180)
 pendown()
+
+#drawing the roofs
 
 left(90)
 color("red")
@@ -290,6 +300,7 @@ penup()
 goto(240,-60)
 pendown()
 
+#drawing the queen
 color("black")
 right(150)
 forward(50)
@@ -386,6 +397,8 @@ end_fill()
 penup()
 goto(-400,-60)
 pendown()
+
+#drawing the trees
 
 color("brown")
 begin_fill()
